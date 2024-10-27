@@ -14,6 +14,7 @@ public class Runner implements CommandLineRunner{
 	private Runner (Receiver receiver, RabbitTemplate rabbitTemplate) {
 		this.receiver = receiver;
 		this.rabbitTemplate = rabbitTemplate;
+		
 	}
 
 	@Override
